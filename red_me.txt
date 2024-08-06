@@ -1,0 +1,31 @@
+Move the project to your server directory:
+
+For XAMPP, move the project to C:\xampp\htdocs\student-management-system
+For WAMP, move the project to C:\wamp\www\student-management-system
+Start your local server:
+1.I have created the database named Student-management
+2.inside the database i have created two tables 
+1.student
+2.users 
+
+In phpMyAdmin, select the student_management database.
+
+Configure the database connection:
+
+Update the db.php file with your database credentials:
+
+Usage
+Register a new user:
+
+Go to http://localhost/student-management-system/register.php
+Fill out the registration form to create a new administrator account.
+Log in:
+
+Go to http://localhost/student-management-system/login.php
+Enter your username and password to log in.
+Manage students:
+
+After logging in, you will be redirected to the main page where you can view, add, edit, and delete student records.
+Log out:
+
+Click on the Logout link to log out of the system.
